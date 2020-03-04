@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Congratulations</title>
+
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel='stylesheet' href="cong.css">
+
+<script src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-db44b196776521ea816683afab021f757616c80860d31da6232dedb8d7cc4862.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.2/underscore-min.js'></script>
+<script id="rendered-js" src="cong.js"></script>
+<script id="rendered-js" src="mcq.js"></script>
+
+</head>
+
+<body translate="no">
+
+<body onload="scoreRender()">
+  
+  <div class="congrats">
+    <h1>Congratulations!</h1>
+  </div>
+  
+  <div class="bg-image"></div>
+
+  <div class="container">
+    
+    <div class="one">
+      <div class="card">
+        <div class="card" style="background-image: linear-gradient(to bottom right, rgb(38, 10, 104), rgb(204, 0, 255)); color: white;">
+          <div class="card-body">QUIZMASTER</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="two">
+      <div class="card">
+        <div class="card" style="background-image: linear-gradient(to bottom right, rgb(38, 10, 104), rgb(204, 0, 255)); color: white;">
+          <div class="card-body">
+            <p>You have successfully completed the test!!</p>
+            <p>Your total score of the test is: </p>
+            <p id="scoreContainer"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script id="rendered-js" src="mcq.js"></script>
+    
+</body>
+
+</body>
+
+</html>
